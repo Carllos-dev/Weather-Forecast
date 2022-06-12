@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <p id="title">
+            Tempo e Temperatura
+        </p>
+    </header>
+    <section class="section">
+        <div class="container weather">
+            <header class="header" id="form">
+                <input type="text" class="input" autocomplete="on" form="form" placeholder="Cidade">
+                <button class="btn">
+                    &#128269;
+                </button>
+            </header>
+            <div class="container-img">
+                <img src="icons/unknown.png" alt="weather" class="img">
+            </div>
+            <p class="city">
+                Cidade
+            </p>
+            <p id="date">
+                Dia, X Mês Ano
+            </p>
+            <div class="container-temp">
+                <div id="temperature">
+                    T
+                </div>
+                <span>°C</span>
+            </div>
+            <div class="temp">
+                Clima
+            </div>
+            <p id="low-high">
+                T°C / +T°C
+            </p>
+        </div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
